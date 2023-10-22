@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.container {
+  width: 300px;
+  height: 450px;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: aliceblue;
+  position: fixed;
+}
+.container input {
+  height: 80px;
+  width: 86%;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  background-color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+button {
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  box-shadow: 1.5px 1.5px 1.5px gray;
+}
+#buttons :nth-child(4) {
+  background-color: rgb(122, 236, 122);
+}
+#buttons :nth-child(8) {
+  background-color: orange;
+}
+#buttons :nth-child(12) {
+  background-color: palevioletred;
+}
+#buttons :nth-child(16) {
+  background-color: rgb(144, 220, 246);
+}
+#buttons :nth-child(18) {
+  background-color: violet;
+}
